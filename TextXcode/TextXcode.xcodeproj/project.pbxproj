@@ -25,6 +25,7 @@
 		9828E9931DBDB6AD006CCD07 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9828E9891DBDB6AD006CCD07 /* AFURLResponseSerialization.m */; };
 		9828E9941DBDB6AD006CCD07 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9828E98B1DBDB6AD006CCD07 /* AFURLSessionManager.m */; };
 		9828E9981DBDB7C5006CCD07 /* AFAppNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9828E9971DBDB7C5006CCD07 /* AFAppNetAPIClient.m */; };
+		98B1ACA61DBE07DF00795FBA /* ZZCacheMeteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B1ACA51DBE07DF00795FBA /* ZZCacheMeteData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		9828E98B1DBDB6AD006CCD07 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		9828E9961DBDB7C5006CCD07 /* AFAppNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppNetAPIClient.h; sourceTree = "<group>"; };
 		9828E9971DBDB7C5006CCD07 /* AFAppNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppNetAPIClient.m; sourceTree = "<group>"; };
+		98B1ACA41DBE07DF00795FBA /* ZZCacheMeteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCacheMeteData.h; sourceTree = "<group>"; };
+		98B1ACA51DBE07DF00795FBA /* ZZCacheMeteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCacheMeteData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				9828E84D1DBDAE37006CCD07 /* LaunchScreen.storyboard */,
 				9828E8501DBDAE37006CCD07 /* Info.plist */,
 				9828E83F1DBDAE37006CCD07 /* Supporting Files */,
+				98B1ACA41DBE07DF00795FBA /* ZZCacheMeteData.h */,
+				98B1ACA51DBE07DF00795FBA /* ZZCacheMeteData.m */,
 			);
 			path = TextXcode;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 				9828E9921DBDB6AD006CCD07 /* AFURLRequestSerialization.m in Sources */,
 				9828E9941DBDB6AD006CCD07 /* AFURLSessionManager.m in Sources */,
 				9828E8441DBDAE37006CCD07 /* AppDelegate.m in Sources */,
+				98B1ACA61DBE07DF00795FBA /* ZZCacheMeteData.m in Sources */,
 				9828E9981DBDB7C5006CCD07 /* AFAppNetAPIClient.m in Sources */,
 				9828E8411DBDAE37006CCD07 /* main.m in Sources */,
 			);
