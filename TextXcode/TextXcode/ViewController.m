@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "AFAppNetAPIClient.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[AFAppNetAPIClient shareClient] Get:@"mobile/mainPageQuanNew" parameters:@{@"FansNo":@"-1", @"UserType":@"1"} cacheTime:3000 completionHandler:^(id responseObject, NSError *error) {
+        if (error) {
+            NSLog(@"%@", error);
+        }else{
+            NSLog(@"%@", responseObject);
+        }
+    }];
+//    [[AFAppNetAPIClient shareClient] Get:@"mobile/mainPageQuanNew" parameters:@{@"FansNo":@"-1", @"UserType":@"1"} completionHandler:^(id responseObject, NSError *error) {
+//        
+//    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -9,5 +9,9 @@
 #import "AFHTTPSessionManager.h"
 
 @interface AFAppNetAPIClient : AFHTTPSessionManager
-
++ (instancetype)shareClient;
+- (void)Get:(NSString *)URLString
+ parameters:(NSDictionary *)parameters
+  cacheTime:(NSInteger)time
+completionHandler:(void(^)(id responseObject, NSError * error))completionHandler;
 @end

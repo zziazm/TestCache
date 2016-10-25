@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9817D34A1DBF010500C18241 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9817D3491DBF010500C18241 /* Security.framework */; };
 		9828E8411DBDAE37006CCD07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9828E8401DBDAE37006CCD07 /* main.m */; };
 		9828E8441DBDAE37006CCD07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9828E8431DBDAE37006CCD07 /* AppDelegate.m */; };
 		9828E8471DBDAE37006CCD07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9828E8461DBDAE37006CCD07 /* ViewController.m */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9817D3491DBF010500C18241 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9828E83C1DBDAE37006CCD07 /* TextXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9828E8401DBDAE37006CCD07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9828E8421DBDAE37006CCD07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9817D34A1DBF010500C18241 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +116,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9817D3481DBF010500C18241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9817D3491DBF010500C18241 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9828E8331DBDAE37006CCD07 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +131,7 @@
 				9828E8581DBDAE37006CCD07 /* TextXcodeTests */,
 				9828E8631DBDAE37006CCD07 /* TextXcodeUITests */,
 				9828E83D1DBDAE37006CCD07 /* Products */,
+				9817D3481DBF010500C18241 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
